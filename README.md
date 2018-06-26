@@ -6,6 +6,6 @@ I use it to demo application deployment to OpenShift on https://appuio.ch
 
 * Web-GUI: "Add to project" -> search for "Python" -> Choose "Python" -> Next -> Version: 3.5, Name: flask-helloworld, Git Repository: https://github.com/arska/flask-helloworld.git -> Create -> Close
 
-* CLI using source-to-image (s2i): oc new-app python:3.5~https://github.com/arska/flask-helloworld.git
+* CLI using source-to-image (s2i): oc new-app python:3.5~https://github.com/arska/flask-helloworld.git; oc expose flask-helloworld
 
-* CLI using Dockerfile: oc new-app --strategy=docker https://github.com/arska/flask-helloworld.git
+* CLI using Dockerfile: oc new-app --strategy=docker https://github.com/arska/flask-helloworld.git; oc expose flask-helloworld
