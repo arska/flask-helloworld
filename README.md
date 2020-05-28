@@ -9,7 +9,7 @@ I use it to demo application deployment to OpenShift on https://appuio.ch
 
 * CLI using source-to-image (s2i)
 ```
-oc new-app python:3.5~https://github.com/arska/flask-helloworld.git; oc expose service flask-helloworld
+oc new-app python:3.6~https://github.com/arska/flask-helloworld.git; oc expose service flask-helloworld
 ```
 
 * CLI using Dockerfile
