@@ -1,7 +1,7 @@
 # Dockerfile
 
 # inherit from this "empty base image", see https://hub.docker.com/_/python/
-FROM python:3.6-alpine
+FROM python:3.9-alpine
 
 # take some responsibility for this container
 MAINTAINER Aarno Aukia <aarno.aukia@vshn.ch>
