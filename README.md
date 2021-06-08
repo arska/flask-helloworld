@@ -1,5 +1,5 @@
 # Python Flask Hello World
-[![Build Status](https://travis-ci.org/arska/flask-helloworld.png)](https://travis-ci.org/arska/flask-helloworld)
+[![Build Status](https://travis-ci.com/arska/flask-helloworld.png)](https://travis-ci.com/arska/flask-helloworld)
 
 This is a very lightweight demo web application serving "Hello World" on TCP port 8080
 
