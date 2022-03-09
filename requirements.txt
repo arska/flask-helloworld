@@ -8,7 +8,7 @@ click==8.0.4
     # via flask
 flask==2.0.3
     # via -r requirements.in
-itsdangerous==2.1.0
+itsdangerous==2.1.1
     # via flask
 jinja2==3.0.3
     # via flask
