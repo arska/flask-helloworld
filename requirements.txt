@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-click==8.1.1
+click==8.1.2
     # via flask
 flask==2.1.1
     # via -r requirements.in
