@@ -4,7 +4,7 @@
 FROM python:3.10-alpine
 
 # take some responsibility for this container
-MAINTAINER Aarno Aukia <aarno.aukia@vshn.ch>
+LABEL org.opencontainers.image.authors="Aarno Aukia <aarno.aukia@vshn.ch>"
 
 # directory to install the app inside the container
 WORKDIR /usr/src/app
