@@ -1,5 +1,7 @@
 # Python Flask Hello World
 
+[![CI to Docker Hub](https://github.com/arska/flask-helloworld/actions/workflows/docker-image.yml/badge.svg)](https://github.com/arska/flask-helloworld/actions/workflows/docker-image.yml)
+
 This is a very lightweight demo web application serving "Hello World" on TCP port 8080
 
 I use it to demo application deployment to OpenShift on https://appuio.ch
