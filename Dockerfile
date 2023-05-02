@@ -24,4 +24,3 @@ CMD [ "python", "app.py" ]
 
 # expose this TCP-port
 EXPOSE 8080
-
