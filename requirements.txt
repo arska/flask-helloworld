@@ -18,5 +18,5 @@ markupsafe==2.1.2
     # via
     #   jinja2
     #   werkzeug
-werkzeug==2.3.3
+werkzeug==2.3.4
     # via flask
