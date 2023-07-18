@@ -6,7 +6,7 @@
 #
 blinker==1.6.2
     # via flask
-click==8.1.5
+click==8.1.6
     # via flask
 flask==2.3.2
     # via -r requirements.in
